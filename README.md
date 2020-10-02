@@ -6,7 +6,7 @@ Titanic is an Android experiment reproducing [this effect](http://codepen.io/lbe
 
 ![ScreenShot](titanic.gif)
 
-## How to use
+## How to use it
 
 Add a `TitanicTextView` to your layout:
 ```xml
@@ -25,7 +25,7 @@ titanic = new Titanic();
 titanic.start(myTitanicTextView);
 ```
 
-You may want to keep track of the titanic instance after the animation is started if you want to stop it.
+You may want to keep track of the titanic instance after the animations is started if you want to stop it.
 
 To stop it:
 ```java
@@ -46,7 +46,7 @@ A [Shader](http://developer.android.com/reference/android/graphics/Shader.html) 
 
 Shader attributes:
 - tile mode: how the shader color spans should be repeated on the x and y axis.
-- local matrix: can be used to apply transformations on the shader
+- local matrix: can be used to apply transformations on the shader.
 
 #### Why are you bugging me with these notions?
 
@@ -72,7 +72,7 @@ In this experiment there are 2 animations.
 
 To animate these translations, all we need is to apply an animator on `maskX` and `maskY`. The position of the shader's matrix will be updated automatically in `onDraw()`.
 
-#### I want more examples
+#### I want more some examples
 
 Glad you said that. Go check out [Shimmer-android](https://github.com/RomainPiel/Shimmer-android). It's based on the same concept with a `LinearGradient` shader.
 
